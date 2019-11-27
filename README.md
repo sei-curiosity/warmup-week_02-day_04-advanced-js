@@ -24,7 +24,8 @@ const map1 = array1.map(function(x){
 });
 
 console.log(map1);
-// expected output: Array [2, 8, 18, 32]```
+// expected output: Array [2, 8, 18, 32]
+```
 
 ## `.filter()` 
 ```js
@@ -36,7 +37,8 @@ function(word){
 });
 
 console.log(result);
-// expected output: Array ["exuberant", "destruction", "present"]```
+// expected output: Array ["exuberant", "destruction", "present"]
+```
 
 
 ## Squares
