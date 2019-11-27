@@ -2,7 +2,8 @@
 
 
 ## `.forEach()` 
-```const array1 = ['a', 'b', 'c'];
+```js
+const array1 = ['a', 'b', 'c'];
 
 array1.forEach(function(element){
   console.log(element);
@@ -14,7 +15,8 @@ array1.forEach(function(element){
 ```
 
 ## `.map()` 
-```const array1 = [1, 4, 9, 16];
+```js
+const array1 = [1, 4, 9, 16];
 
 // pass a function to map
 const map1 = array1.map(function(x){
@@ -25,7 +27,8 @@ console.log(map1);
 // expected output: Array [2, 8, 18, 32]```
 
 ## `.filter()` 
-```const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+```js
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const result = words.filter(
 function(word){
