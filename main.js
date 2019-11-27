@@ -10,7 +10,7 @@ let numsSquared = [];
 
 
 // 2 isDivisibleBy3
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const nums2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let isDivisibleBy3 = [];
 
 // Use .filter() to find out the numbers that are divisible by 3 and store the value in isDivisibleBy3
