@@ -1,11 +1,39 @@
 # JS forEach(), map(), and filter()
 
 
-## `.forEach()` [read more here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+## `.forEach()` 
+```const array1 = ['a', 'b', 'c'];
 
-## `.map()` [read more here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+array1.forEach(function(element){
+  console.log(element);
+});
 
-## `.filter()` [read more here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
+```
+
+## `.map()` 
+```const array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(function(x){
+	return x * 2;
+});
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]```
+
+## `.filter()` 
+```const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(
+function(word){
+	return word.length > 6
+});
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]```
 
 
 ## Squares
